@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
+#!python
 from dev_aberto.dev_aberto import hello
-import os
-
-# Defina a variável de ambiente LANGUAGE para en_US.utf8
-# os.environ['LANGUAGE'] = 'en_US.utf8'
-
 import gettext
 gettext.bindtextdomain('cli', 'locale')
 gettext.textdomain('cli')
